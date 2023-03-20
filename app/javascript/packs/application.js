@@ -8,6 +8,13 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
+// these point to javascript libraries in node_modules
+import "bootstrap"
+import "@popperjs/core"
+// any custome javascript goes here
+import "../src/my_script.js"
+require.context("../images", true)
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
