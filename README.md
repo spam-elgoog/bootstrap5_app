@@ -19,7 +19,7 @@ Sample app that adds Bootstrap 5, JavaScript and Images to Rails 6.1 App
   ```
   app/javascript
   └───images
-  │       test.jpg
+  │       coco.jpg
   │
   └───packs
   │       application.js # already exists
